@@ -1,0 +1,132 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f170\froman\fcharset238\fprq2 Times New Roman CE;}{\f171\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f173\froman\fcharset161\fprq2 Times New Roman Greek;}{\f174\froman\fcharset162\fprq2 Times New Roman Tur;}
+{\f175\froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f176\froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f177\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f178\fswiss\fcharset238\fprq2 Arial CE;}
+{\f179\fswiss\fcharset204\fprq2 Arial Cyr;}{\f181\fswiss\fcharset161\fprq2 Arial Greek;}{\f182\fswiss\fcharset162\fprq2 Arial Tur;}{\f183\fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f184\fswiss\fcharset178\fprq2 Arial (Arabic);}
+{\f185\fswiss\fcharset186\fprq2 Arial Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;
+\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}}{\info{\author Tim Humphrey}{\operator Tim Humphrey}{\creatim\yr2001\mo10\dy16\hr9\min10}{\revtim\yr2001\mo10\dy16\hr9\min12}{\version2}
+{\edmins2}{\nofpages3}{\nofwords712}{\nofchars4064}{\*\company Winthrop University}{\nofcharsws4990}{\vern8269}}\widowctrl\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\horzdoc\dghspace120\dgvspace120\dghorigin1701
+\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind4\viewscale100\nolnhtadjtbl \fet0\sectd \linex0\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain 
+\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\f1\lang2057\langfe1033\langnp2057 SplitterLib Interface Definition 
+\par 
+\par }{\b\f1\fs20\lang2057\langfe1033\langnp2057 General Information
+\par }\pard \ql \li0\ri0\widctlpar\tx993\faauto\rin0\lin0\itap0 {\f1\fs20\lang2057\langfe1033\langnp2057 Library:\tab SplitterLib (Splitter Control)
+\par File:\tab Splitter.ocx
+\par GUID:\tab \{E4803A90-1A86-44D8-B884-F93EB01FC8E8\}
+\par Version:\tab 2.1
+\par }\pard \ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 {\fs20\lang2057\langfe1033\langnp2057 
+\par }{\b\f1\fs20\lang2057\langfe1033\langnp2057 Enumerations
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 This section lists enumerations exposed by SplitterLib.
+\par 
+\par Public Enum AppearanceConstants
+\par \tab vbFlat=0
+\par \tab vb3D=1
+\par End Enum
+\par Public Enum BorderConstants
+\par \tab vbBSNone=0
+\par \tab vbFixedSingle=1
+\par End Enum
+\par Public Enum MaintainConstants
+\par \tab MN_POS=0
+\par \tab MN_RATIO=1
+\par End Enum
+\par Public Enum MaxAppliesToConstants
+\par \tab MX_CHILD1=0
+\par \tab MX_CHILD2=1
+\par End Enum
+\par Public Enum OrientationConstants
+\par \tab OC_HORIZONTAL=0
+\par \tab OC_VERTICAL=1
+\par End Enum}{\fs20\lang2057\langfe1033\langnp2057 
+\par 
+\par }{\b\f1\fs20\lang2057\langfe1033\langnp2057 Interfaces
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 This section lists the Classes exposed by SplitterLib.  For each class, the methods and events are listed.
+\par }{\fs20\lang2057\langfe1033\langnp2057 
+\par }{\b\f1\fs20\lang2057\langfe1033\langnp2057 Splitter \{B312A734-20D7-475E-9C3C-26048C3D009B\}
+\par }{\fs20\lang2057\langfe1033\langnp2057 
+\par }{\f1\fs20\ul\lang2057\langfe1033\langnp2057 Methods}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get BorderStyle() As BorderConstants
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the border style for the control.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let BorderStyle(RHS  As BorderConstants)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the border style for the control.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get SplitterAppearance() As AppearanceConstants
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 The appearance of the splitter bar, only used while the splitter bar is moving and LiveUpdate is false.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let SplitterAppearance(RHS  As AppearanceConstants)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 The appearance of the splitter bar, only used while the splitter bar is moving and LiveUpdate is false.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get SplitterBorder() As BorderConstants
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 The border style for the spiltter bar, only used while the splitter bar is moving and LiveUpdate is false.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let SplitterBorder(RHS  As BorderConstants)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 The border style for the spiltter bar, only used while the splitter bar is moving and LiveUpdate is false.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get SplitterColor() As ULong
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 The color of the splitter bar, only used while the splitter bar is moving and LiveUpdate is false.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let SplitterColor(RHS  As ULong)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 The color of the splitter bar, only used while the splitter bar is moving and LiveUpdate is false.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get Orientation() As OrientationConstants
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 The flow of the child controls.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let Orientation(RHS  As OrientationConstants)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 The flow of the child controls.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get SplitterSize() As Integer
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the size of the splitter bar.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let SplitterSize(RHS  As Integer)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the size of the splitter bar.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get Maintain() As MaintainConstants
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Determines how the splitter bar changes when the control is resized.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let Maintain(RHS  As MaintainConstants)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Determines how the splitter bar changes when the control is resized.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get SplitterPos() As Integer
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the desired position of the splitter bar.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let SplitterPos(RHS  As Integer)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the desired position of the splitter bar.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get CurrSplitterPos() As Integer
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns the current position of the splitter bar.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get RatioFromTop() As Single
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the desired percentage from the top/left to place the splitter bar.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let RatioFromTop(RHS  As Single)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the desired percentage from the top/left to place the splitter bar.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get CurrRatioFromTop() As Single
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns the current percentage from the top/left of the splitter bar.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get Child1() As String
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the name of the control to appear at the left/top.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let Child1(RHS  As String)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the name of the control to appear at the left/top.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get Child2() As String
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the name of the control to appear at the right/bottom.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let Child2(RHS  As String)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the name of the control to appear at the right/bottom.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get MaxSize() As Integer
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the maximum size of a child; 0 is unlimited.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let MaxSize(RHS  As Integer)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the maximum size of a child; 0 is unlimited.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get MaxSizeAppliesTo() As MaxAppliesToConstants
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Determines which child the MaxSize property applies to.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let MaxSizeAppliesTo(RHS  As MaxAppliesToConstants)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Determines which child the MaxSize property applies to.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get MinSize1() As Long
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the minimum size allowed for Child1.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let MinSize1(RHS  As Long)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the minimum size allowed for Child1.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get MinSize2() As Long
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the minimum size allowed for Child2.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let MinSize2(RHS  As Long)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the minimum size allowed for Child2.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get MinSizeAux() As Long
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the minimum size allowed for the control for the opposite orientation.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let MinSizeAux(RHS  As Long)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Returns/sets the minimum size allowed for the control for the opposite orientation.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get AllowResize() As Boolean
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 True if the user can move the splitter bar.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let AllowResize(RHS  As Boolean)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 True if the user can move the splitter bar.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Get LiveUpdate() As Boolean
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 True if the child controls should be resized as the splitter bar is moved.}{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Property Let LiveUpdate(RHS  As Boolean)
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 True if the child controls should be resized as the splitter bar is moved.
+\par }{\f1\fs20\ul\lang2057\langfe1033\langnp2057 Events
+\par }{\b\f1\fs20\lang2057\langfe1033\langnp2057 
+\par Public Event Resize
+\par }{\f1\fs20\lang2057\langfe1033\langnp2057 Occurs when the child controls are resized.}{\fs20\lang2057\langfe1033\langnp2057 
+\par 
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\fs20 
+\par }}
